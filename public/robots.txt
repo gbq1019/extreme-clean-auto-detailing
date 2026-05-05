@@ -1,0 +1,7 @@
+# Extreme Clean Auto Detailing
+# https://extremecleanauto.com
+
+User-agent: *
+Allow: /
+
+Sitemap: https://extremecleanauto.com/sitemap.xml
