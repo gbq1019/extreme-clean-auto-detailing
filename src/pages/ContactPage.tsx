@@ -152,14 +152,30 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* RIGHT — FIELDD LEAD FORM */}
+            {/* RIGHT — GOHIGHLEVEL LEAD FORM */}
             <div className="reveal">
               <div className="form-card">
                 <div className="form-title">Request a Quote</div>
                 <p className="form-subtitle">
                   Fill out the form below and we'll get back to you with a custom quote.
                 </p>
-                <fieldd-lead-form code="xXHQIh" />
+                <iframe
+                  src="https://api.leadconnectorhq.com/widget/form/Qk92sqXDu9HhYXRXVTGN"
+                  style={{ width: '100%', height: '100%', border: 'none', borderRadius: '8px' }}
+                  id="inline-Qk92sqXDu9HhYXRXVTGN"
+                  data-layout="{'id':'INLINE'}"
+                  data-trigger-type="alwaysShow"
+                  data-trigger-value=""
+                  data-activation-type="alwaysActivated"
+                  data-activation-value=""
+                  data-deactivation-type="neverDeactivate"
+                  data-deactivation-value=""
+                  data-form-name="Extreme Clean Auto Detailing Form"
+                  data-height="1408"
+                  data-layout-iframe-id="inline-Qk92sqXDu9HhYXRXVTGN"
+                  data-form-id="Qk92sqXDu9HhYXRXVTGN"
+                  title="Extreme Clean Auto Detailing Form"
+                />
                 <p className="form-note">
                   By submitting this form, you agree to our{' '}
                   <Link to="/privacy-policy">Privacy Policy</Link> and{' '}
