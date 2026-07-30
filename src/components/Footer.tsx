@@ -134,6 +134,15 @@ export default function Footer() {
           <p className="text-gray-600 text-sm">
             &copy; {new Date().getFullYear()} Extreme Clean Auto Detailing. All rights reserved.
           </p>
+          <div className="flex items-center gap-4">
+            <Link to="/privacy-policy" className="text-gray-600 text-xs hover:text-white transition-colors duration-300">
+              Privacy Policy
+            </Link>
+            <span className="text-gray-700 text-xs">&middot;</span>
+            <Link to="/terms-and-conditions" className="text-gray-600 text-xs hover:text-white transition-colors duration-300">
+              Terms and Conditions
+            </Link>
+          </div>
           <p className="text-gray-600 text-xs">
             Serving Macomb Township & Surrounding Areas
           </p>

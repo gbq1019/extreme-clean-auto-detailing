@@ -13,6 +13,8 @@ import Footer from './components/Footer';
 import ServicesPage from './pages/ServicesPage';
 import CeramicCoatingPage from './pages/CeramicCoatingPage';
 import ContactPage from './pages/ContactPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+import TermsAndConditionsPage from './pages/TermsAndConditionsPage';
 import './index.css';
 
 function ScrollToTop() {
@@ -53,6 +55,8 @@ function App() {
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/ceramic-coating" element={<CeramicCoatingPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+          <Route path="/terms-and-conditions" element={<TermsAndConditionsPage />} />
         </Routes>
         <Footer />
       </div>

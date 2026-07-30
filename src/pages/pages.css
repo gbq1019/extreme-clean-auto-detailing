@@ -266,6 +266,60 @@
   padding: 0 24px;
 }
 
+/* ---- Legal content (Privacy Policy / Terms & Conditions) ---- */
+
+.legal-content {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.legal-content .effective-date {
+  font-size: 0.85rem;
+  color: var(--sp-text-muted);
+  margin-bottom: 40px;
+}
+
+.legal-content section {
+  margin-bottom: 40px;
+}
+
+.legal-content h2 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 800;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 14px;
+}
+
+.legal-content p {
+  color: var(--sp-text-muted);
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+
+.legal-content ul {
+  color: var(--sp-text-muted);
+  line-height: 1.7;
+  margin: 0 0 14px;
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.legal-content li {
+  margin-bottom: 4px;
+}
+
+.legal-content a {
+  color: var(--sp-blue);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.legal-content a:hover {
+  color: #fff;
+}
+
 /* ---- CTA box ---- */
 
 .contact-cta-section {
@@ -1255,6 +1309,16 @@
   color: #555;
   line-height: 1.5;
   text-align: center;
+}
+
+.form-note a {
+  color: var(--sp-blue);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.form-note a:hover {
+  color: #fff;
 }
 
 .form-success {
