@@ -160,6 +160,11 @@ export default function ContactPage() {
                   Fill out the form below and we'll get back to you with a custom quote.
                 </p>
                 <fieldd-lead-form code="xXHQIh" />
+                <p className="form-note">
+                  By submitting this form, you agree to our{' '}
+                  <Link to="/privacy-policy">Privacy Policy</Link> and{' '}
+                  <Link to="/terms-and-conditions">Terms and Conditions</Link>.
+                </p>
               </div>
             </div>
 
