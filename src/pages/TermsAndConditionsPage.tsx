@@ -64,7 +64,7 @@ export default function TermsAndConditionsPage() {
       <section className="section">
         <div className="sp-container">
           <div className="legal-content reveal">
-            <p className="effective-date">Effective Date: July 29, 2026</p>
+            <p className="effective-date">Effective Date: July 31, 2026</p>
 
             <section>
               <p>
@@ -128,6 +128,16 @@ export default function TermsAndConditionsPage() {
               <p>Reply STOP to unsubscribe.</p>
               <p>Reply HELP for assistance.</p>
               <p>Consent to receive text messages is not a condition of purchasing any goods or services.</p>
+            </section>
+
+            <section>
+              <h2>Age Requirement</h2>
+              <p>You must be at least 18 years of age or older to use this SMS service.</p>
+            </section>
+
+            <section>
+              <h2>Carrier Liability</h2>
+              <p>Carriers are not liable for delayed or undelivered messages.</p>
             </section>
 
             <section>
