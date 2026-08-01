@@ -64,7 +64,7 @@ export default function PrivacyPolicyPage() {
       <section className="section">
         <div className="sp-container">
           <div className="legal-content reveal">
-            <p className="effective-date">Effective Date: July 29, 2026</p>
+            <p className="effective-date">Effective Date: July 31, 2026</p>
 
             <section>
               <p>
@@ -120,6 +120,29 @@ export default function PrivacyPolicyPage() {
               <p>Message and data rates may apply.</p>
               <p>Reply STOP to unsubscribe at any time.</p>
               <p>Reply HELP for assistance.</p>
+            </section>
+
+            <section>
+              <h2>Cookies &amp; Tracking Technologies</h2>
+              <p>
+                Our website may use cookies and similar technologies to improve your browsing
+                experience, analyze website traffic, and understand how visitors interact with our
+                website. These technologies may collect non-personal information such as browser
+                type, device information, and pages visited. You can disable cookies through your
+                browser settings; however, some features of the website may not function properly.
+              </p>
+            </section>
+
+            <section>
+              <h2>SMS Privacy</h2>
+              <p>
+                No mobile information will be shared with third parties or affiliates for
+                marketing or promotional purposes. Information sharing to subcontractors in
+                support services, such as customer service, messaging providers, and appointment
+                scheduling, is permitted. All other use case categories exclude text messaging
+                originator opt-in data and consent; this information will not be shared with any
+                third parties.
+              </p>
             </section>
 
             <section>
